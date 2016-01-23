@@ -1,22 +1,24 @@
 package models;
 
+/**
+ * Created by Lee on 1/22/2016.
+ */
+
 import org.junit.Test;
 
 import ninja.NinjaDocTester;
 import org.doctester.testbrowser.Request;
 import org.doctester.testbrowser.Response;
 import org.hamcrest.CoreMatchers;
+import org.mockito.internal.matchers.InstanceOf;
+
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.instanceOf;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
 
-/**
- * Created by ramcharan on 1/20/16.
- */
+import java.util.*;
 
-public class appModelTest extends NinjaDocTester{
-
+public class appCardTest extends NinjaDocTester{
     @Test
     public void testObjCreation()
     {
